@@ -154,7 +154,7 @@
     .info-animals {
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        grid-column-gap: 108px;
+        grid-column-gap: 75px;
         align-items: center;
         color: rgba(255, 255, 255, 0.9);
 
@@ -181,13 +181,6 @@
         max-width: 100%;
         height: auto;
     }
-
-    /*.black {*/
-    /*    width: auto;*/
-    /*    height: 250px;*/
-    /*    background-color: black;*/
-    /*}*/
-
 
 
     .info-animals__description-info {
@@ -224,3 +217,44 @@
         color: rgba(255, 255, 255, 0.6);
     }
 
+
+
+/*//////////////////!*MEDIA*!//////////////////////////////*/
+    @media screen and (max-width: 950px) {
+        .wrapper {
+            max-width: 1060px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+
+        .header__nav {
+            display: none;
+        }
+
+        .intro {
+            min-height: 113vh;
+            padding-top: 10px;
+        }
+
+        .intro__title {
+            font-size: 47px;
+            line-height: 54px;
+        }
+
+        .intro__subtitle1 .intro__subtitle2 {
+            font-size: 30px;
+            line-height: 37px;
+        }
+        .info-animals__pic {
+        grid-column: span 2;
+        text-align: center;
+    }
+
+        .info-animals__description {
+            grid-column: span 2;
+            text-align: -webkit-center;
+        }
+
+
+    }
