@@ -162,10 +162,9 @@
     }
 
     .info-animals__more {
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
-        text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
         padding-right: 59px;
         transition: .2s all;
         margin-bottom: 111px;
@@ -188,3 +187,40 @@
     /*    height: 250px;*/
     /*    background-color: black;*/
     /*}*/
+
+
+
+    .info-animals__description-info {
+        margin-bottom: 122px;
+    }
+
+
+
+    .info-animals__comments {
+        display: flex;
+        margin-bottom: 40px;
+    }
+    .comment {
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+
+        color: rgba(255, 255, 255, 0.9);
+
+    }
+
+    .info-animals__comments-icon {
+        margin-right: 20px;
+    }
+
+    .name-commentator {
+        margin-top: 19px;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+
+        color: rgba(255, 255, 255, 0.6);
+    }
+
