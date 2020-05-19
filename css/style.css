@@ -218,6 +218,12 @@
     }
 
 
+    .mariposa-mobile {
+        display: none;
+    }
+
+
+
 
 /*//////////////////!*MEDIA*!//////////////////////////////*/
     @media screen and (max-width: 950px) {
@@ -225,6 +231,10 @@
             max-width: 1060px;
             margin: 0 auto;
             padding: 0 20px;
+        }
+
+        .header__logo {
+            display: none;
         }
 
 
@@ -254,6 +264,39 @@
         .info-animals__description {
             grid-column: span 2;
             text-align: -webkit-center;
+        }
+
+
+        /*MARIPOSA*/
+
+
+        .mariposa-mobile {
+            background: url(../img/mariposa.jpg) no-repeat center;
+            margin: 0 auto;
+            padding: 0 20px;
+            height: 310px;
+            background-size: cover;
+            display: block;
+        }
+
+
+        .mariposa-mobile__title {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 35px;
+            line-height: 52px;
+            color: rgba(255, 255, 255, 0.9);
+            mix-blend-mode: normal;
+            padding-top: 135px;
+        }
+        .mariposa-mobile__desc {
+            font-style: normal;
+            font-weight: 900;
+            font-size: 20px;
+            line-height: 23px;
+            color: rgba(255, 255, 255, 0.9);
+
         }
 
 
