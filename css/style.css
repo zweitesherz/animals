@@ -67,7 +67,7 @@
 
 
     .main {
-        background: url(../img/first-bg.jpg) no-repeat 0 20px;
+        background: url(../img/first-bg.jpg) no-repeat center;
         background-size: cover;
 
     }
@@ -78,7 +78,7 @@
     }
 
     .intro {
-        min-height: 100vh;
+        min-height: 160vh;
         background-size: cover;
         padding-top: 263px;
         box-sizing: content-box;
@@ -156,10 +156,35 @@
         grid-template-columns: repeat(2,1fr);
         grid-column-gap: 108px;
         align-items: center;
-        margin-bottom: 77px;
+        color: rgba(255, 255, 255, 0.9);
+
+
+    }
+
+    .info-animals__more {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: none;
+        padding-right: 59px;
+        transition: .2s all;
+        margin-bottom: 111px;
+        color: rgba(253, 180, 97, 0.82);
+        text-decoration: rgba(253, 180, 97, 0.82);
+
+    }
+
+    .white-desc {
+        color: rgba(255, 255, 255, 0.9);
     }
 
     .pets {
         max-width: 100%;
         height: auto;
     }
+
+    /*.black {*/
+    /*    width: auto;*/
+    /*    height: 250px;*/
+    /*    background-color: black;*/
+    /*}*/
